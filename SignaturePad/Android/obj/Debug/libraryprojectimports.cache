@@ -2,13 +2,22 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\Zebble.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\Refractored.GifImageView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\System.Data.Portable\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\System.Transactions.Portable\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\Zebble.Android\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Refractored.GifImageView\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\System.Data.Portable\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\System.Transactions.Portable\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Zebble.Android\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\Zebble.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\Refractored.GifImageView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\System.Data.Portable.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\System.Transactions.Portable.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\__library_projects__\Zebble.Android.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

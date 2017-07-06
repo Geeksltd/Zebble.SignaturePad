@@ -11,3 +11,13 @@ C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\A
 C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\lib\Zebble.iOS.dll.mdb
 C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.iOS.dll.mdb
 C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.Android.dll.mdb
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.Android.dll
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.Android.pdb
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.Android.apk
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.Android-Signed.apk
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\Android.csprojResolveAssemblyReference.cache
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\Zebble.Plugin.SignaturePad.Android.dll
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\Zebble.Plugin.SignaturePad.Android.pdb
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\android\bin\Zebble.Plugin.SignaturePad.Android.apk
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\R.cs.flag
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\Android\obj\Debug\uploadflags.txt

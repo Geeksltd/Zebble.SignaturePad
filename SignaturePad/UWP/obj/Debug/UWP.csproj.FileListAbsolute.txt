@@ -15,3 +15,20 @@ C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\U
 C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\UWP\obj\Debug\qualifiers.txt
 C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\UWP\obj\Debug\qualifiers.txt.intermediate
 C:\Users\msade\documents\visual studio 2017\Projects\SignaturePad\SignaturePad\UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.UWP.dll
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.UWP.pdb
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.UWP.pri
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\UWP.csprojResolveAssemblyReference.cache
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\Zebble.Plugin.SignaturePad.UWP.dll
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\Zebble.Plugin.SignaturePad.UWP.pdb
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\priconfig.xml
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\priconfig.xml.intermediate
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\layout.resfiles
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\layout.resfiles.intermediate
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\resources.resfiles
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\resources.resfiles.intermediate
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\pri.resfiles
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\pri.resfiles.intermediate
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\qualifiers.txt
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt

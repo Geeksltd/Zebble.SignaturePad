@@ -12,7 +12,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)SignaturePad.cs" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)css\signature_pad.css" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)index.html" />
-    <Content Include="$(MSBuildThisFileDirectory)SignaturePad.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)js\app.js" />
