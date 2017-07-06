@@ -2,8 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Zebble.Plugin.SignaturePad</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title> SignaturePad component for Zebble for Xamarin</title>
+	<iconUrl>https://raw.githubusercontent.com/Geeksltd/Zebble.SignaturePad/master/SignaturePad/Icon.png</iconUrl>
     <description>A javascript based plugin for Zebble for Xamarin</description>
     <authors>Geeks Ltd</authors>
     <owners>Geeks Ltd</owners>
