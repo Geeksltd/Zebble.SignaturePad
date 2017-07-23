@@ -1,6 +1,0 @@
-C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.iOS.dll
-C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\lib\Zebble.Plugin.SignaturePad.iOS.pdb
-C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\iOS\obj\Debug\optimized\
-C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\iOS\obj\Debug\iOS.csprojResolveAssemblyReference.cache
-C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\iOS\obj\Debug\Zebble.Plugin.SignaturePad.iOS.dll
-C:\Projects\Zebble.Plugins\SignaturePad\SignaturePad\iOS\obj\Debug\Zebble.Plugin.SignaturePad.iOS.pdb
