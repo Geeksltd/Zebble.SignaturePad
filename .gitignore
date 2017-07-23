@@ -289,3 +289,6 @@ __pycache__/
 /SmoothCompass/lib
 SmoothCompass/Shared/NuGet.exe
 SmoothCompass/Android/Zebble.exe
+SignaturePad/lib/Zebble.SignaturePad.Android.dll
+SignaturePad/lib/Zebble.SignaturePad.UWP.dll
+SignaturePad/lib/Zebble.SignaturePad.iOS.dll
