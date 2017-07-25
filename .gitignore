@@ -23,6 +23,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+lib
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -286,9 +287,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
-/SmoothCompass/lib
-SmoothCompass/Shared/NuGet.exe
-SmoothCompass/Android/Zebble.exe
-SignaturePad/lib/Zebble.SignaturePad.Android.dll
-SignaturePad/lib/Zebble.SignaturePad.UWP.dll
-SignaturePad/lib/Zebble.SignaturePad.iOS.dll
+
+
+
