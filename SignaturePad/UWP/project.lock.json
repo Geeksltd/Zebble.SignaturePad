@@ -2285,7 +2285,7 @@
           }
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -2302,7 +2302,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -4624,7 +4624,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -4641,7 +4641,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -7002,7 +7002,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -7019,7 +7019,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -9350,7 +9350,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -9367,7 +9367,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -11737,7 +11737,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -11754,7 +11754,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -14085,7 +14085,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -14102,7 +14102,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -16472,7 +16472,7 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Zebble/4.0.244": {
+      "Zebble/4.0.247": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
@@ -16489,7 +16489,7 @@
           "lib/UAP10/Zebble.UWP.dll": {}
         }
       },
-      "Zebble.Plugin.WebView/4.1.217": {
+      "Zebble.Plugin.WebView/4.1.218": {
         "type": "package",
         "dependencies": {
           "HtmlAgilityPack": "1.4.9.5"
@@ -23184,14 +23184,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Zebble/4.0.244": {
-      "sha512": "vW5nNY+0nczk+lcKQlAjMVs1sCYWv40IMGRkRP+DncP+R+jbpXM9UUvgybDh4WIj3tfY4SEANTSVZOwjTUiEMA==",
+    "Zebble/4.0.247": {
+      "sha512": "3eQ/3x49+JYRauz0uNFibkC5ecdGJ8iMGJjjy5N6gIp4SHidUiD8r1Em2ehn2F4pWYspOXYoz86qzeoaCGhgsA==",
       "type": "package",
-      "path": "zebble/4.0.244",
+      "path": "zebble/4.0.247",
       "files": [
         "content/MonoAndroid10/Zebble.exe",
         "content/Zebble-LicenseAgreement.txt",
         "lib/MonoAndroid10/Zebble.Android.dll",
+        "lib/MonoAndroid10/Zebble.Android.dll.mdb",
         "lib/MonoAndroid10/Zebble.Android.pdb",
         "lib/UAP10/Zebble.UWP.dll",
         "lib/UAP10/Zebble.UWP.pdb",
@@ -23201,14 +23202,14 @@
         "lib/Xamarin.iOS10/Zebble.iOS.pdb",
         "tools/Zebble.exe",
         "tools/_Core.scss",
-        "zebble.4.0.244.nupkg.sha512",
+        "zebble.4.0.247.nupkg.sha512",
         "zebble.nuspec"
       ]
     },
-    "Zebble.Plugin.WebView/4.1.217": {
-      "sha512": "NX23x/X+Vbu3j6Rfb0P5eU6tAQvPkzPfeBWKTKV76Lzv54EA953dbGz1WtgJAGkWzRAiZN765t9AP2ldgqPojg==",
+    "Zebble.Plugin.WebView/4.1.218": {
+      "sha512": "5xZAhCneIi8Xr5R50j3aX9gbcW3kuomXnv+7ZNSBbQETbU3QObNJTvplMxCgP9j3F2Q/UMw0A0WeQ6W3xZGVMQ==",
       "type": "package",
-      "path": "zebble.plugin.webview/4.1.217",
+      "path": "zebble.plugin.webview/4.1.218",
       "files": [
         "lib/MonoAndroid10/Zebble.WebView.Android.dll",
         "lib/MonoAndroid10/Zebble.WebView.Android.pdb",
@@ -23218,15 +23219,15 @@
         "lib/Xamarin.iOS10/Zebble.WebView.iOS.dll",
         "lib/Xamarin.iOS10/Zebble.WebView.iOS.dll.mdb",
         "lib/Xamarin.iOS10/Zebble.WebView.iOS.pdb",
-        "zebble.plugin.webview.4.1.217.nupkg.sha512",
+        "zebble.plugin.webview.4.1.218.nupkg.sha512",
         "zebble.plugin.webview.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
-      "Zebble >= 4.0.244",
-      "Zebble.Plugin.WebView >= 4.1.217"
+      "Zebble >= 4.0.247",
+      "Zebble.Plugin.WebView >= 4.1.218"
     ],
     "UAP,Version=v10.0": []
   },
@@ -23242,8 +23243,8 @@
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
-      "Zebble": "4.0.244",
-      "Zebble.Plugin.WebView": "4.1.217"
+      "Zebble": "4.0.247",
+      "Zebble.Plugin.WebView": "[4.1.218, )"
     },
     "frameworks": {
       "uap10.0": {}

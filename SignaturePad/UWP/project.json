@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
-    "Zebble": "4.0.244",
-    "Zebble.Plugin.WebView": "4.1.217"
+    "Zebble": "4.0.247",
+    "Zebble.Plugin.WebView": "4.1.218"
   },
   "frameworks": {
     "uap10.0": {}
