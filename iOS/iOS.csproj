@@ -35,10 +35,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Zebble.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Zebble.4.0.247\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
+      <HintPath>..\packages\Zebble.4.0.249\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Zebble.WebView.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Zebble.Plugin.WebView.4.1.218\lib\Xamarin.iOS10\Zebble.WebView.iOS.dll</HintPath>
+      <HintPath>..\packages\Zebble.Plugin.WebView.4.1.227\lib\Xamarin.iOS10\Zebble.WebView.iOS.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
