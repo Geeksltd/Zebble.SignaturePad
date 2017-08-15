@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Zebble.Plugin.SignaturePad</id>
-    <version>3.2.219</version>
+    <id>Zebble.SignaturePad</id>
+    <version>3.2.222</version>
     <title> Signature Pad for Zebble (Xamarin)</title>
     <iconUrl>https://raw.githubusercontent.com/Geeksltd/Zebble.SignaturePad/master/Icon.png</iconUrl>
     <projectUrl>https://github.com/Geeksltd/Zebble.SignaturePad</projectUrl>
@@ -11,7 +11,7 @@
     <owners>Mobile App Technologies Ltd</owners>
     <copyright>Copyright ©2017 | Mobile App Technologies Ltd</copyright>
     <dependencies>
-      <dependency id="Zebble.Plugin.WebView" version="4.1.227" />
+      <dependency id="Zebble.WebView" version="4.1.227" />
     </dependencies>
   </metadata>
   <files>
