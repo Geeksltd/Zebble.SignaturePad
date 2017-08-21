@@ -20,7 +20,7 @@
         public override async Task OnPreRender()
         {
             await base.OnPreRender();
-            WebView.Html = Assembly.ReadEmbeddedTextFile("Zebble.Plugin", "Asset/Index.html");
+            WebView.Html = Assembly.ReadEmbeddedTextFile("Zebble", "Asset/Index.html");
         }
     }
 }
