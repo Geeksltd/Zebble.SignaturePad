@@ -20,6 +20,12 @@
             Fired when Image is loaded, decoded and ready for use.
             </summary>
         </member>
+        <member name="M:Zebble.Services.ImageService.DisposeCache">
+            <summary>
+            It will disposed images which are not currently being viewed.
+            This should be invoked in case of meomry pressure.
+            </summary>
+        </member>
         <member name="F:Zebble.Services.ImageService.ImageDownloaded">
             <summary>
             Fired every time an image is downloaded from a remote URL.
@@ -953,6 +959,11 @@
         <member name="M:Zebble.View.CurrentDescendants">
             <summary>
             Gets the current children and their nested children (recursive) which are not ignored.
+            </summary>
+        </member>
+        <member name="M:Zebble.View.IsRendered">
+            <summary>
+            Determines if this view is rendered already (i.e. has its Native property set).
             </summary>
         </member>
         <member name="M:Zebble.View.Add``1(``0,System.Boolean)">
