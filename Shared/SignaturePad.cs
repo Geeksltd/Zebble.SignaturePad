@@ -13,7 +13,7 @@
         public override async Task OnInitializing()
         {
             await base.OnInitializing();
-            WebView = new WebView(Assembly, "Zebble.Plugin").Size(100.Percent());
+            WebView = new WebView(Assembly, "Zebble").Size(100.Percent());
             await Add(WebView);
         }
 
