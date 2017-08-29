@@ -34,7 +34,6 @@
             Tests if a host name is accessible (i.e. there is internet connection available on the device, and the address itself is valid and responding to network requests.
             </summary>
             <param name="destination">The host name can machine name, domain name, IP address, etc.</param>
-            <param name="msTimeout">Timeout in milliseconds</param>
         </member>
         <member name="M:Zebble.NativeImpl.DeviceLocalNotification.Show(System.String,System.String,System.Collections.Generic.KeyValuePair{System.String,System.String}[],Zebble.OnError)">
             <summary>
@@ -306,6 +305,11 @@
             Determines a specified remote image has already been downloaded.
             </summary> 
         </member>
+        <member name="M:Zebble.Services.ImageService.GetViewSize(System.String)">
+            <summary>
+            Gets the pixel size of the specified image file divided by the screen density.
+            </summary>
+        </member>
         <member name="T:Zebble.Services.GeoLocationService">
             <summary>
             Provides location services.
@@ -369,6 +373,11 @@
             Returns the XML representation of this instance.
             </summary>
         </member>
+        <member name="M:Zebble.Services.IdleUITasks.SeemsIdle">
+            <summary>
+            Determines if it's been 300ms since the last gesture action or the last rendering.
+            </summary>
+        </member>
         <member name="M:Zebble.Services.IdleUITasks.Run(System.String,System.Action)">
             <summary>
              Schedules an action to run when the UI thread appears free.
@@ -397,7 +406,6 @@
         <member name="T:Zebble.EventHandlerDisposer">
             <summary>
             Provides a mechanism to prevent event handler dependency memory leaks.
-            
             </summary>
         </member>
         <member name="M:Zebble.EventHandlerDisposer.DisposeAll">
@@ -622,7 +630,6 @@
         </member>
         <member name="M:Zebble.Nav.Go``1(Zebble.PageTransition)">
             <summary>Redirects to the specified page.</summary>
-            <param name="navParams">Provide either an IDictioniary[string, object] or an anonymous object.</param>
         </member>
         <member name="M:Zebble.Nav.Go``1(System.Object,Zebble.PageTransition)">
             <summary>Redirects to the specified page.</summary>
@@ -681,6 +688,12 @@
             <summary>
             If it's running in a Batch context, the event will just be enlisted, otherwise it will run straight away.
             </summary>
+        </member>
+        <member name="M:Zebble.UIWorkBatch.ShouldAddToNativeParentAsHidden(Zebble.View)">
+            <summary>
+            If there is an open ui work batch, then the VisibilityChanged event will be registered in the batch
+            and True will be returned.
+            </summary> 
         </member>
         <member name="T:Zebble.Stylesheet.State`1">
             <summary>
@@ -899,6 +912,11 @@
             Position, Visible, Ignored and opacity settings of itself and its parents.
             </summary>
         </member>
+        <member name="M:Zebble.View.InitializeFromMarkup">
+            <summary>
+            Creates child objects from a ZBL markup file.
+            </summary>
+        </member>
         <member name="M:Zebble.View.RaiseShown">
             <summary>
             This is fired every time the view is shown.
@@ -962,6 +980,11 @@
         <member name="P:Zebble.View.CurrentSiblings">
             <summary>
             Will return all siblings views of this view which are not Ignored.
+            </summary>
+        </member>
+        <member name="M:Zebble.View.ClearChildren">
+            <summary>
+            Remvoes all children without awaiting native action.
             </summary>
         </member>
         <member name="M:Zebble.View.WithAllParents">
@@ -1251,6 +1274,21 @@
         <member name="M:Zebble.Size.Scale(System.Single)">
             <summary>
             Gets a new size with the width and height multiplied by the specified multiplier.
+            </summary>
+        </member>
+        <member name="M:Zebble.Size.IsLargerThan(Zebble.Size)">
+            <summary>
+            Returns true if both width and height are larger than another specified size.
+            </summary> 
+        </member>
+        <member name="M:Zebble.Size.IsSmallerThan(Zebble.Size)">
+            <summary>
+            Returns true if both width and height are smaller than another specified size.
+            </summary> 
+        </member>
+        <member name="M:Zebble.Size.Area">
+            <summary>
+            Returns width * height.
             </summary>
         </member>
         <member name="M:Zebble.Alert.Prompt(System.String,System.String,System.Collections.Generic.KeyValuePair{System.String,System.Action}[])">
@@ -2403,11 +2441,6 @@
             </summary>
         </member>
         <member name="M:System.ZebbleExtensions.TryRemove``2(System.Collections.Concurrent.ConcurrentDictionary{``0,``1},``0)">
-            <summary>
-            Tries to the remove an item with the specified key from this dictionary.
-            </summary>
-        </member>
-        <member name="M:System.ZebbleExtensions.TryRemoveAt``2(System.Collections.Concurrent.ConcurrentDictionary{``0,``1},System.Int32)">
             <summary>
             Tries to the remove an item with the specified key from this dictionary.
             </summary>
