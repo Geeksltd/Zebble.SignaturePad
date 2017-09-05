@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
-    "Zebble": "4.2.315",
-    "Zebble.WebView": "4.2.234"
+    "Zebble": "4.2.341",
+    "Zebble.WebView": "4.2.236"
   },
   "frameworks": {
     "uap10.0": {}
@@ -15,5 +15,3 @@
     "win10-x64-aot": {}
   }
 }
-
-

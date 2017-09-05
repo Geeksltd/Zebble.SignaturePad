@@ -26,6 +26,13 @@
             This should be invoked in case of meomry pressure.
             </summary>
         </member>
+        <member name="M:Zebble.Services.ImageService.GetPixelSize(Zebble.Size,Zebble.Size,Zebble.Stretch)">
+            <summary>
+            Gets the correct pixel size to encode or decode an image based on a specified display frame and stretch.
+            </summary>
+            <param name="imageSize">Image size in pixels.</param>
+            <param name="displayFrame">Target display size in Zebble UI (logical point).</param>
+        </member>
         <member name="F:Zebble.Services.ImageService.ImageDownloaded">
             <summary>
             Fired every time an image is downloaded from a remote URL.
@@ -717,12 +724,6 @@
             If it's running in a Batch context, the event will just be enlisted, otherwise it will run straight away.
             </summary>
         </member>
-        <member name="M:Zebble.UIWorkBatch.ShouldAddToNativeParentAsHidden(Zebble.View)">
-            <summary>
-            If there is an open ui work batch, then the VisibilityChanged event will be registered in the batch
-            and True will be returned.
-            </summary> 
-        </member>
         <member name="T:Zebble.Stylesheet.State`1">
             <summary>
             Provides a mechanism to apply a temporary visual style change on a view without ruining its Css and Style settings after the temporary change is reversed.
@@ -992,6 +993,8 @@
         <member name="M:Zebble.View.IsRendered">
             <summary>
             Determines if this view is rendered already (i.e. has its Native property set).
+            Note: The view may be rendered but not be added to a native parent yet.
+            Consider using IsShown instead.
             </summary>
         </member>
         <member name="M:Zebble.View.Add``1(``0,System.Boolean)">
@@ -1235,6 +1238,21 @@
         <member name="M:Zebble.EnumExtensions.IsVertical(Zebble.Direction)">
             <summary>True if this direction is Up or Down.</summary>
         </member>
+        <member name="P:Zebble.UserRotatingEventArgs.View">
+            <summary>The view on which this event was triggered.</summary>
+        </member>
+        <member name="P:Zebble.UserRotatingEventArgs.Touch1">
+            <summary>Location of the first touch. For Windows desktop, it's the location of the mouse.</summary>
+        </member>
+        <member name="P:Zebble.UserRotatingEventArgs.Touch2">
+            <summary>Location of the second touch. For Windows desktop, it's the location of the mouse.</summary>
+        </member>
+        <member name="P:Zebble.UserRotatingEventArgs.Center">
+            <summary>The center point between the two touch points.</summary>
+        </member>
+        <member name="P:Zebble.UserRotatingEventArgs.Degrees">
+            <summary>The degrees (clock-wise) by which the object was rotated.</summary>
+        </member>
         <member name="M:Zebble.Gap.HasValue">
             <summary>
             Determines if any side of this gap has a non-zero gap.
@@ -1263,8 +1281,34 @@
             </summary>
         </member>
         <member name="P:Zebble.PinchedEventArgs.View">
+            <summary>The view on which this event was triggered.</summary>
+        </member>
+        <member name="P:Zebble.PinchedEventArgs.Touch1">
+            <summary>Location of the first touch. For Windows desktop, it's the location of the mouse.</summary>
+        </member>
+        <member name="P:Zebble.PinchedEventArgs.Touch2">
+            <summary>Location of the second touch. For Windows desktop, it's the location of the mouse.</summary>
+        </member>
+        <member name="P:Zebble.PinchedEventArgs.Center">
+            <summary>The center point between the two touch points.</summary>
+        </member>
+        <member name="P:Zebble.PinchedEventArgs.Expanded">
             <summary>
-            The view on which this event was triggered.
+            Determines whether the selected area expanded (zoom in) or shrank (zoomed out).
+            It will be true if ChangeScale is > 1.
+            </summary>
+        </member>
+        <member name="P:Zebble.PinchedEventArgs.ChangeScale">
+            <summary>
+            Gets the change in the scale of the pinching.
+            For example for slow zoom in it may be 1.15. For slow zoom out it can be 0.85.
+            For fast zoom in it may be 1.75. For fast zoom out it can be 0.25. You get the idea.
+            </summary>
+        </member>
+        <member name="P:Zebble.PinchedEventArgs.Shrank">
+            <summary>
+            Determines whether the selected area expanded (zoom in) or shrank (zoomed out).
+            It's always the opposite of Expanded.
             </summary>
         </member>
         <member name="M:Zebble.Point.DistanceTo(Zebble.Point)">
@@ -1313,6 +1357,11 @@
             <summary>
             Returns true if both width and height are smaller than another specified size.
             </summary> 
+        </member>
+        <member name="M:Zebble.Size.AspectRatio">
+            <summary>
+            Gets width divided by height.
+            </summary>
         </member>
         <member name="M:Zebble.Size.Area">
             <summary>
