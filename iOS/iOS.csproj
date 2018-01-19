@@ -22,6 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <DocumentationFile>..\lib\Zebble.SignaturePad.iOS.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -36,15 +37,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Zebble.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.4.2.342\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Zebble.WebView.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zebble.WebView.4.2.236\lib\Xamarin.iOS10\Zebble.WebView.iOS.dll</HintPath>
-    </Reference>
+    <Content Include="Zebble-LicenseAgreement.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Zebble-LicenseAgreement.txt" />
+    <Reference Include="HtmlAgilityPack, Version=1.6.13.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.6.13\lib\netstandard2.0\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Zebble.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zebble.4.3.100\lib\Xamarin.iOS10\Zebble.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Zebble.WebView.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zebble.WebView.4.2.239\lib\Xamarin.iOS10\Zebble.WebView.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="..\Shared\Shared.projitems" Label="Shared" Condition="Exists('..\Shared\Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
