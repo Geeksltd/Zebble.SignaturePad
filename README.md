@@ -1,4 +1,4 @@
-[logo]: https://raw.githubusercontent.com/Geeksltd/Zebble.SignaturePad/master/Shared/NuGet/Icon.png "Zebble.SignaturePad"
+[logo]: https://raw.githubusercontent.com/Geeksltd/Zebble.SignaturePad/master/Icon.png "Zebble.SignaturePad"
 
 
 ## Zebble.SignaturePad
