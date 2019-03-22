@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Zebble.SignaturePad</id>
-    <version>3.2.228</version>
+    <version>3.2.231</version>
     <title> Signature Pad for Zebble (Xamarin)</title>
     <iconUrl>https://raw.githubusercontent.com/Geeksltd/Zebble.SignaturePad/master/Icon.png</iconUrl>
     <projectUrl>https://github.com/Geeksltd/Zebble.SignaturePad</projectUrl>
     <description>A javascript based plugin for capturing user signatures.</description>
     <authors>Geeks Ltd</authors>
     <owners>Geeks Ltd</owners>
-    <copyright>Copyright © 2018 Geeks Ltd - All rights reserved.</copyright>
+    <copyright>Copyright © 2019 Geeks Ltd - All rights reserved.</copyright>
     <dependencies>
       <dependency id="Zebble.WebView" version="4.2.239" />
     </dependencies>
@@ -20,7 +20,6 @@
     <file src="..\..\lib\bin\ARM\Release\Zebble.SignaturePad.UWP.*" target="runtimes\win10-arm\lib\uap10.0" />
     <file src="..\..\lib\bin\x64\Release\Zebble.SignaturePad.UWP.*" target="runtimes\win10-x64\lib\uap10.0" />
     <file src="..\..\lib\bin\x86\Release\Zebble.SignaturePad.UWP.*" target="runtimes\win10-x86\lib\uap10.0" />
-
     <file src="..\..\lib\bin\Release\Zebble.SignaturePad.UWP.*" target="ref\uap10.0" />
   </files>
 </package>
