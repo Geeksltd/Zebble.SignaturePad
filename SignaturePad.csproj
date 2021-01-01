@@ -7,7 +7,7 @@
     <RootNamespace>Zebble</RootNamespace>
     <PackageId>Zebble.SignaturePad</PackageId>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <Version>3.2.231</Version>
+    <Version>3.2.232.0</Version>
     <PackOnBuild>true</PackOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>default</LangVersion>
@@ -69,9 +69,9 @@
     <PackageReference Include="Zebble.WebView" Version="4.3.265" />
   </ItemGroup>
   <ItemGroup>
-	<Folder Include="Android\" />
-	<Folder Include="iOS\" />
-	<Folder Include="UWP\" />
+    <Folder Include="Android\" />
+    <Folder Include="iOS\" />
+    <Folder Include="UWP\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Asset\App.js" />
