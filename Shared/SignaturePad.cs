@@ -1,14 +1,14 @@
 ﻿namespace Zebble.Plugin
 {
-    using System;
     using System.Reflection;
     using System.Threading.Tasks;
     using Zebble;
+    using Olive;
 
     public partial class SignaturePad : Canvas
     {
         WebView WebView;
-        Assembly Assembly => GetType().GetAssembly();
+        Assembly Assembly => GetType().Assembly;
 
         public override async Task OnInitializing()
         {
@@ -20,7 +20,7 @@
         public override async Task OnPreRender()
         {
             await base.OnPreRender();
-            WebView.Html = Assembly.ReadEmbeddedTextFile("Zebble", "Asset/Index.html");
+            WebView.Html = await Assembly.ReadEmbeddedTextFileAsync("Zebble", "Asset/Index.html");
         }
     }
 }
