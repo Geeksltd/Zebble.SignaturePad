@@ -7,7 +7,7 @@
     <RootNamespace>Zebble</RootNamespace>
     <PackageId>Zebble.SignaturePad</PackageId>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <Version>3.2.234.0</Version>
+    <Version>3.2.235.0</Version>
     <PackOnBuild>true</PackOnBuild>
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>default</LangVersion>
@@ -66,7 +66,7 @@
     <None Remove="Zebble-LicenseAgreement.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Zebble.WebView" Version="4.3.269" />
+    <PackageReference Include="Zebble.WebView" Version="4.3.270" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Android\" />
